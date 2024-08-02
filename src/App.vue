@@ -5,6 +5,12 @@
       <section>
         <HeroSection />
       </section>
+      <section id="profile">
+        <ProfileSection />
+      </section>
+      <section id="education">
+        <EducationSection />
+      </section>
     </main>
   </div>
 </template>
@@ -12,4 +18,6 @@
 <script setup>
 import SideMenu from "./components/SideMenu.vue";
 import HeroSection from "./components/HeroSection.vue";
+import ProfileSection from "./components/ProfileSection.vue";
+import EducationSection from "./components/EducationSection.vue";
 </script>

@@ -8,13 +8,12 @@
           class="size-10 rounded-lg"
         />
       </div>
-
       <div class="border-t border-zinc-200">
         <div class="px-2">
           <ul class="space-y-1 pt-2">
             <li>
               <a
-                href="#"
+                href="#profile"
                 class="group relative flex justify-center rounded px-2 py-1.5 text-zinc-950 hover:scale-110 transition ease-out duration-150"
               >
                 <IdentificationIcon
@@ -25,14 +24,13 @@
                 <span
                   class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
                 >
-                  About
+                  Profile
                 </span>
               </a>
             </li>
-
             <li>
               <a
-                href="#"
+                href="#education"
                 class="group relative flex justify-center rounded px-2 py-1.5 text-zinc-950 hover:scale-110 transition ease-out duration-150"
               >
                 <AcademicCapIcon class="size-6 stroke-1" aria-hidden="true" />
@@ -40,11 +38,10 @@
                 <span
                   class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
                 >
-                  Skills
+                  Education
                 </span>
               </a>
             </li>
-
             <li>
               <a
                 href="#"
@@ -59,7 +56,6 @@
                 </span>
               </a>
             </li>
-
             <li>
               <a
                 href="#"
@@ -69,7 +65,6 @@
                   class="size-6 stroke-1"
                   aria-hidden="true"
                 />
-
                 <span
                   class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
                 >
@@ -81,7 +76,6 @@
         </div>
       </div>
     </div>
-
     <div class="border-t border-zinc-200">
       <div class="px-2">
         <ul class="space-y-1 py-2">
@@ -104,38 +98,6 @@
               </span>
             </a>
           </li>
-
-          <li>
-            <a
-              href="https://www.facebook.com/vitkainora/"
-              target="_blank"
-              rel="noreferrer"
-              class="group relative flex justify-center rounded px-2 py-1.5 text-white hover:scale-110 transition ease-out duration-150"
-            >
-              <div
-                class="bg-zinc-900 rounded-full p-1 flex items-center justify-center"
-              >
-                <svg
-                  class="size-4"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </div>
-              <span
-                class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
-              >
-                Facebook
-              </span>
-            </a>
-          </li>
-
           <li>
             <a
               href="https://www.linkedin.com/in/nora-vitkai/"
@@ -165,6 +127,36 @@
                 class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
               >
                 LinkedIn
+              </span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/vitkainora/"
+              target="_blank"
+              rel="noreferrer"
+              class="group relative flex justify-center rounded px-2 py-1.5 text-white hover:scale-110 transition ease-out duration-150"
+            >
+              <div
+                class="bg-zinc-900 rounded-full p-1 flex items-center justify-center"
+              >
+                <svg
+                  class="size-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <span
+                class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
+              >
+                Facebook
               </span>
             </a>
           </li>
