@@ -1,64 +1,68 @@
 <template>
-  <div class="flex h-screen w-16 flex-col justify-between border-e bg-white">
+  <div
+    class="flex fixed h-screen w-16 flex-col justify-between border-e bg-white z-20"
+  >
     <div>
       <div class="inline-flex size-16 items-center justify-center">
-        <img
-          src="/src/assets/nora-vitkai-logo.svg"
-          alt="Logo"
-          class="size-10 rounded-lg"
-        />
+        <router-link
+          :to="{ path: '/', hash: '#hero' }"
+          class="inline-flex size-16 items-center justify-center"
+        >
+          <img
+            src="/src/assets/nora-vitkai-logo.svg"
+            alt="Logo"
+            class="size-10 rounded-lg"
+          />
+        </router-link>
       </div>
       <div class="border-t border-zinc-200">
         <div class="px-2">
           <ul class="space-y-1 pt-2">
             <li>
-              <a
-                href="#profile"
+              <router-link
+                :to="{ path: '/', hash: '#profile' }"
                 class="group relative flex justify-center rounded px-2 py-1.5 text-zinc-950 hover:scale-110 transition ease-out duration-150"
               >
                 <IdentificationIcon
                   class="size-6 stroke-1"
                   aria-hidden="true"
                 />
-
                 <span
-                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
+                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
                 >
                   Profile
                 </span>
-              </a>
+              </router-link>
             </li>
             <li>
-              <a
-                href="#education"
+              <router-link
+                :to="{ path: '/', hash: '#education' }"
                 class="group relative flex justify-center rounded px-2 py-1.5 text-zinc-950 hover:scale-110 transition ease-out duration-150"
               >
                 <AcademicCapIcon class="size-6 stroke-1" aria-hidden="true" />
-
                 <span
-                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
+                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
                 >
                   Education
                 </span>
-              </a>
+              </router-link>
             </li>
             <li>
-              <a
-                href="#"
+              <router-link
+                :to="{ path: '/', hash: '#experience' }"
                 class="group relative flex justify-center rounded px-2 py-1.5 text-zinc-950 hover:scale-110 transition ease-out duration-150"
               >
                 <BriefcaseIcon class="size-6 stroke-1" aria-hidden="true" />
-
                 <span
-                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
+                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
                 >
                   Experience
                 </span>
-              </a>
+              </router-link>
             </li>
             <li>
-              <a
-                href="#"
+              <router-link
+                :to="{ path: '/', hash: '#contact' }"
                 class="group relative flex justify-center rounded px-2 py-1.5 text-zinc-950 hover:scale-110 transition ease-out duration-150"
               >
                 <ChatBubbleBottomCenterTextIcon
@@ -66,11 +70,11 @@
                   aria-hidden="true"
                 />
                 <span
-                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
+                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
                 >
                   Contact
                 </span>
-              </a>
+              </router-link>
             </li>
           </ul>
         </div>
@@ -92,7 +96,7 @@
                 <AtSymbolIcon class="size-4 stroke-2" aria-hidden="true" />
               </div>
               <span
-                class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
+                class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
               >
                 Mail
               </span>
@@ -124,7 +128,7 @@
                 </svg>
               </div>
               <span
-                class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
+                class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
               >
                 LinkedIn
               </span>
@@ -154,7 +158,7 @@
                 </svg>
               </div>
               <span
-                class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible"
+                class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
               >
                 Facebook
               </span>

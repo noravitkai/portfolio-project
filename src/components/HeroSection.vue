@@ -4,7 +4,7 @@
   >
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
       <div class="grid place-content-center bg-zinc-100 p-6 sm:p-8">
-        <div class="mx-auto max-w-md text-center lg:text-left">
+        <div class="mx-auto max-w-md text-left">
           <header>
             <div class="relative">
               <h1
@@ -30,13 +30,13 @@
               </p>
               <a
                 href="#contact"
-                class="relative max-w-max mx-auto lg:ml-0 px-4 py-2 group text-zinc-900"
+                class="relative max-w-max px-4 py-2 group text-zinc-900"
               >
                 <span
                   class="absolute inset-0 bg-yellow w-full h-full transition ease-in-out duration-300 transform translate-x-1 translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0"
                 ></span>
                 <span class="absolute inset-0 border-2 border-zinc-900"></span>
-                <span class="relative">Contact</span>
+                <span class="relative">Get in touch</span>
               </a>
             </div>
           </header>
@@ -45,8 +45,8 @@
       <div class="lg:col-span-2">
         <ul class="grid grid-cols-2 gap-4">
           <li>
-            <a
-              href="#profile"
+            <router-link
+              to="/#profile"
               class="group block overflow-hidden text-sm md:text-base 2xl:text-lg text-zinc-900 hover:text-yellow ease-in-out transition duration-300"
             >
               <img
@@ -55,30 +55,30 @@
                 class="aspect-square w-full object-cover transition duration-500 group-hover:scale-105"
               />
               <div class="relative bg-white pt-4">
-                <a href="#" class="inline-flex items-center">
+                <div href="#" class="inline-flex items-center">
                   Get to know me
                   <ArrowRightIcon class="ml-1 h-4 w-4" aria-hidden="true" />
-                </a>
+                </div>
               </div>
-            </a>
+            </router-link>
           </li>
           <li>
-            <a
-              href="#experience"
+            <router-link
+              to="/projects"
               class="group block overflow-hidden text-sm md:text-base 2xl:text-lg text-zinc-900 hover:text-yellow ease-in-out transition duration-300"
             >
               <img
                 src="/src/assets/workspace.jpg"
-                alt=""
+                alt="Workspace"
                 class="aspect-square w-full object-cover transition duration-500 group-hover:scale-105"
               />
               <div class="relative bg-white pt-3">
-                <a href="#" class="inline-flex items-center">
+                <div class="inline-flex items-center">
                   Check my projects
                   <ArrowRightIcon class="ml-1 h-4 w-4" aria-hidden="true" />
-                </a>
+                </div>
               </div>
-            </a>
+            </router-link>
           </li>
         </ul>
       </div>

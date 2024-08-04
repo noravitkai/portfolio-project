@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8 xl:px-12 pt-8 xl:pt-16"
+    class="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8 xl:px-12 pt-8 xl:pt-16 relative z-10"
   >
     <div>
       <span class="flex items-center">
@@ -13,26 +13,32 @@
       </span>
     </div>
     <div class="pt-8 xl:pt-16">
-      <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
-        <div class="bg-zinc-100 p-6 sm:p-8 shadow-sm">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div
+          v-for="(education, index) in educations"
+          :key="index"
+          class="bg-zinc-100 p-6 sm:p-8 shadow-sm"
+        >
           <div class="relative border-s border-zinc-200">
             <div
-              class="absolute w-3 h-3 bg-yellow rounded-full mt-[0.4375rem] -start-1.5"
+              class="absolute w-3 h-3 bg-yellow rounded-full mt-[0.4375rem] -start-1.5 z-10"
             ></div>
             <div class="ms-4 relative">
-              <time class="text-sm text-yellow font-medium">2019</time>
+              <time class="text-sm text-yellow font-medium">{{
+                education.startYear
+              }}</time>
               <div class="mt-3">
                 <h3
                   class="text-sm md:text-base 2xl:text-lg text-zinc-900 font-medium flex items-center"
                 >
                   <AcademicCapIcon class="mr-2 h-4 w-4" aria-hidden="true" />
-                  Hungarian Literary and Cultural Studies
+                  {{ education.programme }}
                 </h3>
                 <p
                   class="text-sm md:text-base 2xl:text-lg text-zinc-700 flex items-center"
                 >
                   <BookmarkIcon class="mr-2 h-4 w-4" aria-hidden="true" />
-                  Master with Honours
+                  {{ education.degree }}
                 </p>
                 <p
                   class="text-sm md:text-base 2xl:text-lg text-zinc-700 flex items-center"
@@ -41,109 +47,20 @@
                     class="mr-2 h-4 w-4"
                     aria-hidden="true"
                   />
-                  University of Debrecen, Hungary
+                  {{ education.institution }}, {{ education.location }}
                 </p>
               </div>
               <p class="my-3 text-sm md:text-base 2xl:text-lg text-zinc-700">
-                During my studies, I cultivated strong research and writing
-                skills, demonstrated through academic achievements such as
-                publications and being awarded first place in a scholarly
-                contest.
+                {{ education.description }}
               </p>
             </div>
             <div
-              class="absolute w-3 h-3 bg-yellow rounded-full mt-[0.4375rem] -start-1.5"
+              class="absolute w-3 h-3 bg-yellow rounded-full mt-[0.4375rem] -start-1.5 z-10"
             ></div>
             <div class="ms-4 relative">
-              <time class="text-sm text-yellow font-medium">2021</time>
-            </div>
-          </div>
-        </div>
-        <div class="bg-zinc-100 p-6 sm:p-8 shadow-sm">
-          <div class="relative border-s border-zinc-200">
-            <div
-              class="absolute w-3 h-3 bg-yellow rounded-full mt-[0.4375rem] -start-1.5"
-            ></div>
-            <div class="ms-4 relative">
-              <time class="text-sm text-yellow font-medium">2022</time>
-              <div class="mt-3">
-                <h3
-                  class="text-sm md:text-base 2xl:text-lg text-zinc-900 font-medium flex items-center"
-                >
-                  <AcademicCapIcon class="mr-2 h-4 w-4" aria-hidden="true" />
-                  Multimedia Design
-                </h3>
-                <p
-                  class="text-sm md:text-base 2xl:text-lg text-zinc-700 flex items-center"
-                >
-                  <BookmarkIcon class="mr-2 h-4 w-4" aria-hidden="true" />
-                  Academy Profession
-                </p>
-                <p
-                  class="text-sm md:text-base 2xl:text-lg text-zinc-700 flex items-center"
-                >
-                  <BuildingLibraryIcon
-                    class="mr-2 h-4 w-4"
-                    aria-hidden="true"
-                  />
-                  Business Academy SouthWest, Denmark
-                </p>
-              </div>
-              <p class="my-3 text-sm md:text-base 2xl:text-lg text-zinc-700">
-                The programme equipped me with the skills to develop a range of
-                digital solutions. The curriculum combined technical expertise
-                with effective communication abilities.
-              </p>
-            </div>
-            <div
-              class="absolute w-3 h-3 bg-yellow rounded-full mt-[0.4375rem] -start-1.5"
-            ></div>
-            <div class="ms-4 relative">
-              <time class="text-sm text-yellow font-medium">2024</time>
-            </div>
-          </div>
-        </div>
-        <div class="bg-zinc-100 p-6 sm:p-8 shadow-sm">
-          <div class="relative border-s border-zinc-200">
-            <div
-              class="absolute w-3 h-3 bg-yellow rounded-full mt-[0.4375rem] -start-1.5"
-            ></div>
-            <div class="ms-4 relative">
-              <time class="text-sm text-yellow font-medium">2024</time>
-              <div class="mt-3">
-                <h3
-                  class="text-sm md:text-base 2xl:text-lg text-zinc-900 font-medium flex items-center"
-                >
-                  <AcademicCapIcon class="mr-2 h-4 w-4" aria-hidden="true" />
-                  Web Development
-                </h3>
-                <p
-                  class="text-sm md:text-base 2xl:text-lg text-zinc-700 flex items-center"
-                >
-                  <BookmarkIcon class="mr-2 h-4 w-4" aria-hidden="true" />
-                  Bachelor (Expected Graduation: 2026)
-                </p>
-                <p
-                  class="text-sm md:text-base 2xl:text-lg text-zinc-700 flex items-center"
-                >
-                  <BuildingLibraryIcon
-                    class="mr-2 h-4 w-4"
-                    aria-hidden="true"
-                  />
-                  Business Academy SouthWest, Denmark
-                </p>
-              </div>
-              <p class="my-3 text-sm md:text-base 2xl:text-lg text-zinc-700">
-                Driven by a desire to expand my web dev knowledge, I enrolled in
-                a top-up programme, delving into progressive web app
-                development, database management, and user experience.
-              </p>
-            </div>
-            <div
-              class="absolute w-3 h-3 bg-yellow rounded-full mt-[0.4375rem] -start-1.5"
-            ></div>
-            <div class="ms-4 relative">
-              <time class="text-sm text-yellow font-medium">Present</time>
+              <time class="text-sm text-yellow font-medium">{{
+                education.graduationYear
+              }}</time>
             </div>
           </div>
         </div>
@@ -158,4 +75,37 @@ import {
   BookmarkIcon,
   BuildingLibraryIcon,
 } from "@heroicons/vue/24/outline";
+
+const educations = [
+  {
+    startYear: "2016",
+    graduationYear: "2021",
+    programme: "Hungarian Literary and Cultural Studies",
+    degree: "Master with Honours",
+    institution: "University of Debrecen",
+    location: "Hungary",
+    description:
+      "During my studies, I cultivated strong research and writing skills, demonstrated through academic achievements such as publications and being awarded first place in a scholarly contest.",
+  },
+  {
+    startYear: "2022",
+    graduationYear: "2024",
+    programme: "Multimedia Design",
+    degree: "Academy Profession",
+    institution: "Business Academy SouthWest",
+    location: "Denmark",
+    description:
+      "The programme equipped me with the skills to develop interactive and user-centric digital products. The curriculum combined technical expertise with idea development.",
+  },
+  {
+    startYear: "2024",
+    graduationYear: "Present",
+    programme: "Web Development",
+    degree: "Bachelor (Expected Graduation: 2026)",
+    institution: "Business Academy SouthWest",
+    location: "Denmark",
+    description:
+      "Driven by a desire to expand my web dev knowledge, I enrolled in a top-up programme, delving into progressive web app development, database management, and user experience.",
+  },
+];
 </script>
