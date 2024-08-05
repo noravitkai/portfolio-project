@@ -1,9 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "../views/HomePage.vue";
 import ProjectsPage from "../views/ProjectsPage.vue";
-import ProfileSection from "../components/ProfileSection.vue";
-import EducationSection from "../components/EducationSection.vue";
-import ExperienceSection from "../components/ExperienceSection.vue";
+import ProjectDetails from "../components/ProjectDetails.vue";
 
 const routes = [
   {
@@ -17,24 +15,10 @@ const routes = [
     component: ProjectsPage,
   },
   {
-    path: "/profile",
-    name: "Profile",
-    component: HomePage,
-    alias: ["/profile", "/education", "/experience"],
-    children: [
-      {
-        path: "#profile",
-        component: ProfileSection,
-      },
-      {
-        path: "#education",
-        component: EducationSection,
-      },
-      {
-        path: "#experience",
-        component: ExperienceSection,
-      },
-    ],
+    path: "/projects/:projectId",
+    name: "ProjectDetails",
+    component: ProjectDetails,
+    props: true,
   },
 ];
 

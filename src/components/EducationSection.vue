@@ -1,6 +1,6 @@
 <template>
   <div
-    class="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8 xl:px-12 pt-8 xl:pt-16 relative z-10"
+    class="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8 xl:px-12 pt-8 xl:pt-16 relative"
   >
     <div>
       <span class="flex items-center">

@@ -13,40 +13,35 @@
       </span>
     </div>
     <div class="pt-8 xl:pt-16">
-      <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8"
-      >
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <article
           v-for="project in projects"
-          :key="project.title"
-          class="relative overflow-hidden border border-zinc-100 bg-white shadow-sm hover:shadow-lg hover:scale-105 transition ease-in-out duration-300"
+          :key="project.id"
+          class="relative overflow-hidden border border-zinc-100 bg-white shadow-sm hover:shadow-lg hover:scale-95 transition ease-in-out duration-300"
         >
           <img
             :alt="project.title"
-            :src="project.image"
-            class="h-56 w-full object-cover"
+            :src="project.images[0]"
+            class="aspect-square w-full object-cover"
           />
-
           <div class="flex flex-col gap-3 p-4 sm:p-6">
             <h3
               class="text-sm md:text-base 2xl:text-lg text-zinc-900 font-medium"
             >
               {{ project.title }}
             </h3>
-
             <p
               class="line-clamp-3 text-sm md:text-base 2xl:text-lg text-zinc-700"
             >
-              {{ project.description }}
+              {{ project.scope }}
             </p>
-
-            <a
-              :href="project.link"
+            <router-link
+              :to="`/projects/${project.id}`"
               class="clickable-parent inline-flex items-center text-sm md:text-base 2xl:text-lg text-yellow font-medium"
             >
               Read more
               <ArrowRightIcon class="ml-1 h-4 w-4" aria-hidden="true" />
-            </a>
+            </router-link>
           </div>
         </article>
       </div>
@@ -60,9 +55,7 @@
           <br class="sm:hidden" />
           Discover my complete portfolio!
         </p>
-
         <span class="h-px flex-1 bg-zinc-200"></span>
-
         <div class="mt-4 lg:mt-0 pl-0 lg:pl-4">
           <router-link
             to="/projects"
@@ -83,28 +76,14 @@
 
 <script setup>
 import { ArrowRightIcon } from "@heroicons/vue/24/outline";
+import { computed } from "vue";
+import { useRoute } from "vue-router";
+import { projects } from "../projects.js";
 
-const projects = [
-  {
-    title: "Website for GG Szépségstúdió",
-    description:
-      "A website for a beauty salon in Hungary. The website is built with WordPress and Tailwind CSS.",
-    image: "/src/assets/gg-szepsegstudio-website-project.jpg",
-    link: "#",
-  },
-  {
-    title: "Website for Fiatalok Konferenciája",
-    description:
-      "A website for a conference in Hungary. The website is built with WordPress and Tailwind CSS.",
-    image: "/src/assets/gg-szepsegstudio-website-project.jpg",
-    link: "#",
-  },
-  {
-    title: "Website for Hufbau",
-    description:
-      "A website for a construction company in Hungary. The website is built with Vue.js and Tailwind CSS.",
-    image: "/src/assets/gg-szepsegstudio-website-project.jpg",
-    link: "#",
-  },
-];
+const route = useRoute();
+
+const projectData = computed(() => {
+  const id = route.params.projectId;
+  return projects.find((project) => project.id === id) || {};
+});
 </script>

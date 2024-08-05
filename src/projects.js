@@ -1,0 +1,77 @@
+export const projects = [
+  {
+    id: "fiatalok-konferenciaja-website",
+    title: "Website for Fiatalok Konferenciája",
+    scope:
+      "A modern, minimalist website for an annual academic conference, built with Tailwind CSS and Vanilla JavaScript on WordPress.",
+    descriptions: [
+      "The project involved developing a new website along with other digital media products for Fiatalok Konferenciája (FiKon), an annual Hungarian conference organized by university students.",
+      "FiKon plays a vital role in fostering academic exchange by providing a platform for Bachelor’s, Master’s, and PhD students specializing in Medieval and Early Modern Literary and Cultural Studies to present their research findings. Although FiKon has been successfully operating for a decade, its online presence lacked the sophistication needed to adequately reflect its mission and attract potential participants.",
+      "Addressing the deficiencies in FiKon’s web presence was the goal of the project, achieved by creating a user-friendly and visually appealing website, complemented by a cohesive brand identity through various digital media products.",
+      "The development of the website involved a blend of modern web dev technologies and frameworks for a seamless, high-performance experience. While the site is built on the WordPress platform for its content management capabilities, a custom-coded unique theme was developed to meet specific needs. Custom theme development offers several key benefits, including consistency with the brand identity, great flexibility and tailored functionality, as well as better performance with a more efficient, lightweight codebase.",
+      "The custom theme was developed using Tailwind CSS for effective and responsive styling, along with Vanilla JavaScript for dynamic interactivity. Tailwind CSS was selected for its utility-first approach to styling, which allows for rapid development and a cohesive design language across the site. Vanilla JavaScript was employed to handle dynamic interactivity for implementing custom functionalities without larger frameworks.",
+      "WordPress was chosen primarily for its user- friendly content management system, allowing conference organizers to easily manage the content of the page without requiring technical knowledge. The language of the site is Hungarian, serving its local audience. The content is populated dynamically using PHP and WordPress functions.",
+    ],
+    images: ["/src/assets/fikon-website.jpg"],
+    details: {
+      Type: "Event Website",
+      Technologies: "WordPress • PHP • Tailwind CSS • Vanilla JavaScript",
+      "Key Features":
+        "Custom Theme • Responsive Design • Dynamic Content • Structured Visual Hierarchy • Dynamic Event Schedule in Timeline Format • Customizable Program • Conditional Logic for Adaptive Layouts • Access to Conference Volumes and Speaker Profiles",
+      "SEO Strategy":
+        "Keyword Research • Title, Meta Description, Alt Text Optimization • SEO-Friendly URL Structure • Semantic HTML • Image Optimization • Caching • Structured Sitemap",
+      "Security Measures": "HTTPS Encryption • Two-Factor Authentication",
+      Link: "https://fikon.noravitkai.com/",
+    },
+  },
+  {
+    id: "hufbau-otthonfelujitas-website",
+    title: "Website for HUFBAU Piedl",
+    scope:
+      "A promotional website as part of a marketing campaign for a building materials supplier, built with Vue.js and Tailwind CSS.",
+    descriptions: [
+      "In 2024, the Hungarian Government announced a Home Renovation Programme aimed at the energy modernization of family houses. This programme generated substantial advertising buzz within the construction material sector and among trading companies.",
+      "Marketing Puzzle, the creative marketing agency where I previously undertook my internship, devised a campaign to help HUFBAU Piedl, a leading building materials supplier in Veszprém, stand out in a competitive market. The campaign creatively emphasized thermal insulation, aligning with the Home Renovation Programme and delivering clear, impactful communication.",
+      "As part of this extensive campaign, Marketing Puzzle produced various promotional materials, including sliders, banners, B1 and A4 posters, billboards, and social media content. My role was to integrate all the provided information and visuals into a cohesive and engaging promotional website.",
+      "The landing page was developed using Vue.js and Tailwind CSS. Vue.js facilitated a fast, interactive user experience with its component-based architecture, while Tailwind CSS facilitated the creation of a responsive and visually appealing layout, enhancing user engagement.",
+      "The website, in Hungarian to serve its target group, features strategic elements such as CTA sections, service descriptions, information on how HUFBAU Piedl supports customers through the Home Renovation Programme, and details about the prize draw associated with the campaign.",
+      "This comprehensive and strategic approach resulted in a high-impact promotional website that effectively supports HUFBAU Piedl's marketing campaign.",
+    ],
+    images: ["/src/assets/hufbau-website.jpg"],
+    details: {
+      Type: "Promotional Website • Landing Page",
+      Technologies: "Vue.js • Tailwind CSS",
+      "Key Features":
+        "Custom Design • Responsive Layout • CTA Sections • Contact Form • Strategic Marketing Content • Easily Accessible Information • Fast Load Times",
+      "SEO Strategy":
+        "Title, Meta Description, Alt Text Optimization • SEO-Friendly URL Structure • Semantic HTML • Image Optimization • Performance and Speed Enhancement",
+      "Security Measures": "HTTPS Encryption",
+      Link: "https://hufbauotthonfelujitas.hu/",
+    },
+  },
+  {
+    id: "gg-szepsegstudio-website",
+    title: "Website for GG Szépségstúdió",
+    scope:
+      "A stylish website for a beauty salon showcasing its services, built with Tailwind CSS and Vanilla JavaScript on WordPress.",
+    descriptions: [
+      "GG Szépségstúdió, located in Veszprém, Hungary, is a small yet versatile beauty salon offering a range of services, including cosmetics, hairdressing, manicure-pedicure, and nature medicine-based massage therapies.",
+      "The primary goal of this project was to establish a strong online presence for the salon by effectively reflecting its mission, vision, and values, along with showcasing its varied services. During the design process, both the brand identity of GG Szépségstúdió and the needs of its target group were carefully considered.",
+      "The site features easily accessible service information, responsive design for optimal user experience across all devices, easy-to-use contact options, and dynamic content such as a gallery and blog posts, ensuring seamless browsing experience for visitors.",
+      "Additionally, textual and visual content was also developed to highlight the unique values of treatments offered by the salon. The website is optimized for local search to ensure that potential customers in Veszprém easily find and choose the salon.",
+      "The site was developed with a custom-coded theme using Tailwind CSS and Vanilla JavaScript. Tailwind CSS was utilized for its streamlined approach and pre-built classes, enabling the creation of a responsive and visually appealing layout. Vanilla JavaScript was employed to maintain a fast and responsive site, further enhancing the experience.",
+      "WordPress was chosen as the CMS for its ease of use, allowing the salon to update the site regularly with minimal effort, maintaining its relevance. The website is in Hungarian to serve the local audience. Content is dynamically generated using PHP and WordPress functions.",
+    ],
+    images: ["/src/assets/gg-szepsegstudio-website.jpg"],
+    details: {
+      Type: "Business Website",
+      Technologies: "WordPress • PHP • Tailwind CSS • Vanilla JavaScript",
+      "Key Features":
+        "Custom Theme • Responsive Design • Dynamic Content • Comprehensive Service Overview with Detailed Subpages • Gallery • Blog • Contact Form",
+      "SEO Strategy":
+        "Keyword Research • Title, Meta Description, Alt Text Optimization • SEO-Friendly URL Structure • Semantic HTML • Image Optimization • Caching • Structured Sitemap",
+      "Security Measures": "HTTPS Encryption • Two-Factor Authentication",
+      Link: "https://www.ggszepsegstudio.hu/",
+    },
+  },
+];
