@@ -47,7 +47,7 @@
           <li>
             <router-link
               to="/#profile"
-              class="group block overflow-hidden text-sm md:text-base 2xl:text-lg text-zinc-900 hover:text-yellow ease-in-out transition duration-300"
+              class="group block overflow-hidden text-sm md:text-base 2xl:text-lg text-zinc-900 font-medium hover:text-yellow ease-in-out transition duration-300"
             >
               <img
                 src="/src/assets/nora-vitkai-portrait-01.jpg"
@@ -65,7 +65,7 @@
           <li>
             <router-link
               to="/projects"
-              class="group block overflow-hidden text-sm md:text-base 2xl:text-lg text-zinc-900 hover:text-yellow ease-in-out transition duration-300"
+              class="group block overflow-hidden text-sm md:text-base 2xl:text-lg text-zinc-900 font-medium hover:text-yellow ease-in-out transition duration-300"
             >
               <img
                 src="/src/assets/workspace.jpg"

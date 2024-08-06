@@ -12,7 +12,10 @@ export const projects = [
       "The custom theme was developed using Tailwind CSS for effective and responsive styling, along with Vanilla JavaScript for dynamic interactivity. Tailwind CSS was selected for its utility-first approach to styling, which allows for rapid development and a cohesive design language across the site. Vanilla JavaScript was employed to handle dynamic interactivity for implementing custom functionalities without larger frameworks.",
       "WordPress was chosen primarily for its user- friendly content management system, allowing conference organizers to easily manage the content of the page without requiring technical knowledge. The language of the site is Hungarian, serving its local audience. The content is populated dynamically using PHP and WordPress functions.",
     ],
-    images: ["/src/assets/fikon-website.jpg"],
+    images: [
+      "/src/assets/fikon-website-cover.jpg",
+      "/src/assets/fikon-website-mockup.jpg",
+    ],
     details: {
       Type: "Event Website • Multi-Page Website",
       Technologies: "WordPress • PHP • Tailwind CSS • Vanilla JavaScript",
@@ -37,7 +40,10 @@ export const projects = [
       "The website, in Hungarian to serve its target group, features strategic elements such as CTA sections, service descriptions, information on how HUFBAU Piedl supports customers through the Home Renovation Programme, and details about the prize draw associated with the campaign.",
       "This comprehensive and strategic approach resulted in a high-impact promotional website that effectively supports HUFBAU Piedl's marketing campaign.",
     ],
-    images: ["/src/assets/hufbau-website.jpg"],
+    images: [
+      "/src/assets/hufbau-website-cover.jpg",
+      "/src/assets/hufbau-website-mockup.jpg",
+    ],
     details: {
       Type: "Promotional Website • Landing Page",
       Technologies: "Vue.js • Tailwind CSS",
@@ -62,7 +68,10 @@ export const projects = [
       "The site was developed with a custom-coded theme using Tailwind CSS and Vanilla JavaScript. Tailwind CSS was utilized for its streamlined approach and pre-built classes, enabling the creation of a responsive and visually appealing layout. Vanilla JavaScript was employed to maintain a fast and responsive site, further enhancing the experience.",
       "WordPress was chosen as the CMS for its ease of use, allowing the salon to update the site regularly with minimal effort, maintaining its relevance. The website is in Hungarian to serve the local audience. Content is dynamically generated using PHP and WordPress functions.",
     ],
-    images: ["/src/assets/gg-szepsegstudio-website.jpg"],
+    images: [
+      "/src/assets/gg-szepsegstudio-website-cover.jpg",
+      "/src/assets/gg-szepsegstudio-website-mockup.jpg",
+    ],
     details: {
       Type: "Business Website • Multi-Page Website",
       Technologies: "WordPress • PHP • Tailwind CSS • Vanilla JavaScript",
@@ -72,6 +81,36 @@ export const projects = [
         "Keyword Research • Title, Meta Description, Alt Text Optimization • SEO-Friendly URL Structure • Semantic HTML • Image Optimization • Caching • Structured Sitemap",
       "Security Measures": "HTTPS Encryption • Two-Factor Authentication",
       Link: "https://www.ggszepsegstudio.hu/",
+    },
+  },
+  {
+    id: "marketing-puzzle-logo",
+    title: "Logo for Marketing Puzzle",
+    scope:
+      "A visually appealing, memorable, and easily recognizable logo for MarketingPuzzle, reflecting their commitment to creative problem-solving and innovation.",
+    descriptions: [
+      "I was approached by MarketingPuzzle to design a new logo that would accurately convey the essence of the brand. Marketing Puzzle is a full-service marketing agency located in Hungary, offering a wide range of marketing communication services, including both online and offline marketing, advertising, web development, social media content management, graphic design, copywriting, and newsletter marketing.",
+      "The primary objective was to create a logo that is visually appealing, memorable, and easily recognisable. As an idea-oriented marketing agency, MarketingPuzzle needed a logo that reflects their commitment to creative problem-solving and continuous pursuit of innovation.",
+      "The logo features a distinctive design integrating a puzzle piece with a light bulb. The puzzle piece symbolizes the idea of fitting together unique and complex elements to solve challenges, reflecting the agency’s ability to connect various marketing strategies to create comprehensive solutions for their clients. The light bulb is universally recognized as a symbol of ideas and inspiration, underscoring MarketingPuzzle’s commitment to generating creative solutions and fostering new ideas.",
+      "This integration signifies that each piece of the marketing puzzle is not only a part of a larger strategy but also a source of insight and innovation. By the combination, the logo effectively communicates the agency’s mission to merge creativity with strategic thinking.",
+      "The logo was designed in multiple variants, ensuring scalability and versatility for diverse applications across all media, from digital platforms to print materials, while maintaining visual integrity and brand consistency.",
+    ],
+    images: [
+      "/src/assets/marketing-puzzle-logo-cover.jpg",
+      "/src/assets/marketing-puzzle-logo-mockup.jpg",
+    ],
+    details: {
+      Type: "Logo Design • Branding • Graphic Design",
+      Tool: "Adobe Illustrator",
+      "Key Features":
+        "Memorable Design • Alignment with Brand Identity • Scalable Across Different Uses • Versatility Across Media",
+      "Design Process":
+        "Research and Discovery • Concept Development • Sketching • Digital Rendering • Client Feedback • Finalization",
+      "Brand Values": "Creativity • Innovation • Problem-Solving",
+      "Logo Variants":
+        "Horizontal • Vertical • Icon-Only • Full-Color • Black and White",
+      Outcome:
+        "Enhanced Brand Recognition and Market Presence • Differentiation from Competitors • Positive Client Feedback • Increased Visual Impact",
     },
   },
 ];

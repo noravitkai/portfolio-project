@@ -6,7 +6,7 @@
       <span class="flex items-center">
         <div class="mr-4">
           <router-link
-            :to="{ path: '/', hash: '#hero' }"
+            to="/projects"
             class="relative max-w-max px-4 py-2 group text-zinc-900"
           >
             <span
@@ -62,7 +62,7 @@
       <div class="relative w-full overflow-hidden md:col-span-1 aspect-square">
         <img
           :alt="projectData.title"
-          :src="projectData.images[0]"
+          :src="projectData.images[1]"
           class="absolute inset-0 h-full w-full object-cover"
         />
       </div>

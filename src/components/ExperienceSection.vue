@@ -17,24 +17,28 @@
         <article
           v-for="project in projects"
           :key="project.id"
-          class="relative overflow-hidden border border-zinc-100 bg-white shadow-sm hover:shadow-lg hover:scale-95 transition ease-in-out duration-300"
+          class="relative group overflow-hidden border border-zinc-100 bg-white shadow-sm hover:shadow-lg transition ease-in-out duration-300"
         >
-          <img
-            :alt="project.title"
-            :src="project.images[0]"
-            class="aspect-square w-full object-cover"
-          />
+          <div class="overflow-hidden">
+            <img
+              :alt="project.title"
+              :src="project.images[0]"
+              class="aspect-square w-full object-cover transition duration-500 group-hover:scale-105"
+            />
+          </div>
           <div class="flex flex-col gap-3 p-4 sm:p-6">
             <h3
               class="text-sm md:text-base 2xl:text-lg text-zinc-900 font-medium"
             >
               {{ project.title }}
             </h3>
+
             <p
               class="line-clamp-3 text-sm md:text-base 2xl:text-lg text-zinc-700"
             >
               {{ project.scope }}
             </p>
+
             <router-link
               :to="`/projects/${project.id}`"
               class="clickable-parent inline-flex items-center text-sm md:text-base 2xl:text-lg text-yellow font-medium"

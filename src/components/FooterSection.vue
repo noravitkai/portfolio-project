@@ -5,12 +5,10 @@
     >
       <div class="pt-4 xl:pt-4 border-t border-zinc-200"></div>
       <div
-        class="text-center sm:flex sm:justify-between sm:text-left text-xs sm:text-sm text-zinc-900"
+        class="flex justify-between text-left text-xs sm:text-sm text-zinc-900"
       >
+        <p class="mt-0">&copy; {{ currentYear }} • Nora Vitkai</p>
         <p class="block sm:inline">All Rights Reserved.</p>
-        <p class="mt-2 sm:order-first sm:mt-0">
-          &copy; {{ currentYear }} • Nora Vitkai
-        </p>
       </div>
     </div>
   </footer>
