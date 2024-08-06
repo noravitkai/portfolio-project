@@ -4,7 +4,7 @@
   >
     <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
       <div class="grid place-content-center bg-zinc-100 p-6 sm:p-8">
-        <div class="mx-auto max-w-md text-left">
+        <div class="text-left">
           <header>
             <div class="relative">
               <h1
@@ -28,8 +28,8 @@
                 I am an inventive content creator with a multidisciplinary
                 approach to web design and web development.
               </p>
-              <a
-                href="#contact"
+              <router-link
+                to="/#contact"
                 class="relative max-w-max px-4 py-2 group text-zinc-900"
               >
                 <span
@@ -37,7 +37,7 @@
                 ></span>
                 <span class="absolute inset-0 border-2 border-zinc-900"></span>
                 <span class="relative">Get in touch</span>
-              </a>
+              </router-link>
             </div>
           </header>
         </div>
@@ -55,7 +55,7 @@
                 class="aspect-square w-full object-cover transition duration-500 group-hover:scale-105"
               />
               <div class="relative bg-white pt-4">
-                <div href="#" class="inline-flex items-center">
+                <div class="inline-flex items-center">
                   Get to know me
                   <ArrowRightIcon class="ml-1 h-4 w-4" aria-hidden="true" />
                 </div>

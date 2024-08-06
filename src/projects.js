@@ -14,7 +14,7 @@ export const projects = [
     ],
     images: ["/src/assets/fikon-website.jpg"],
     details: {
-      Type: "Event Website",
+      Type: "Event Website • Multi-Page Website",
       Technologies: "WordPress • PHP • Tailwind CSS • Vanilla JavaScript",
       "Key Features":
         "Custom Theme • Responsive Design • Dynamic Content • Structured Visual Hierarchy • Dynamic Event Schedule in Timeline Format • Customizable Program • Conditional Logic for Adaptive Layouts • Access to Conference Volumes and Speaker Profiles",
@@ -64,7 +64,7 @@ export const projects = [
     ],
     images: ["/src/assets/gg-szepsegstudio-website.jpg"],
     details: {
-      Type: "Business Website",
+      Type: "Business Website • Multi-Page Website",
       Technologies: "WordPress • PHP • Tailwind CSS • Vanilla JavaScript",
       "Key Features":
         "Custom Theme • Responsive Design • Dynamic Content • Comprehensive Service Overview with Detailed Subpages • Gallery • Blog • Contact Form",

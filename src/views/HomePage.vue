@@ -12,6 +12,9 @@
     <section id="experience">
       <ExperienceSection />
     </section>
+    <section id="contact">
+      <ContactSection />
+    </section>
   </div>
 </template>
 
@@ -20,4 +23,5 @@ import HeroSection from "@/components/HeroSection.vue";
 import ProfileSection from "@/components/ProfileSection.vue";
 import EducationSection from "@/components/EducationSection.vue";
 import ExperienceSection from "@/components/ExperienceSection.vue";
+import ContactSection from "@/components/ContactSection.vue";
 </script>
