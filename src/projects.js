@@ -1,3 +1,12 @@
+import fikonWebsiteCover from "@/assets/fikon-website-cover.jpg";
+import fikonWebsiteMockup from "@/assets/fikon-website-mockup.jpg";
+import hufbauWebsiteCover from "@/assets/hufbau-website-cover.jpg";
+import hufbauWebsiteMockup from "@/assets/hufbau-website-mockup.jpg";
+import ggSzepsegstudioWebsiteCover from "@/assets/gg-szepsegstudio-website-cover.jpg";
+import ggSzepsegstudioWebsiteMockup from "@/assets/gg-szepsegstudio-website-mockup.jpg";
+import marketingPuzzleLogoCover from "@/assets/marketing-puzzle-logo-cover.jpg";
+import marketingPuzzleLogoMockup from "@/assets/marketing-puzzle-logo-mockup.jpg";
+
 export const projects = [
   {
     id: "fiatalok-konferenciaja-website",
@@ -12,10 +21,7 @@ export const projects = [
       "The custom theme was developed using Tailwind CSS for effective and responsive styling, along with Vanilla JavaScript for dynamic interactivity. Tailwind CSS was selected for its utility-first approach to styling, which allows for rapid development and a cohesive design language across the site. Vanilla JavaScript was employed to handle dynamic interactivity for implementing custom functionalities without larger frameworks.",
       "WordPress was chosen primarily for its user- friendly content management system, allowing conference organizers to easily manage the content of the page without requiring technical knowledge. The language of the site is Hungarian, serving its local audience. The content is populated dynamically using PHP and WordPress functions.",
     ],
-    images: [
-      "/assets/fikon-website-cover.jpg",
-      "/assets/fikon-website-mockup.jpg",
-    ],
+    images: [fikonWebsiteCover, fikonWebsiteMockup],
     details: {
       Type: "Event Website • Multi-Page Website",
       Technologies: "WordPress • PHP • Tailwind CSS • Vanilla JavaScript",
@@ -40,10 +46,7 @@ export const projects = [
       "The website, in Hungarian to serve its target group, features strategic elements such as CTA sections, service descriptions, information on how HUFBAU Piedl supports customers through the Home Renovation Programme, and details about the prize draw associated with the campaign.",
       "This comprehensive and strategic approach resulted in a high-impact promotional website that effectively supports HUFBAU Piedl's marketing campaign.",
     ],
-    images: [
-      "/assets/hufbau-website-cover.jpg",
-      "/assets/hufbau-website-mockup.jpg",
-    ],
+    images: [hufbauWebsiteCover, hufbauWebsiteMockup],
     details: {
       Type: "Promotional Website • Landing Page",
       Technologies: "Vue.js • Tailwind CSS",
@@ -68,10 +71,7 @@ export const projects = [
       "The site was developed with a custom-coded theme using Tailwind CSS and Vanilla JavaScript. Tailwind CSS was utilized for its streamlined approach and pre-built classes, enabling the creation of a responsive and visually appealing layout. Vanilla JavaScript was employed to maintain a fast and responsive site, further enhancing the experience.",
       "WordPress was chosen as the CMS for its ease of use, allowing the salon to update the site regularly with minimal effort, maintaining its relevance. The website is in Hungarian to serve the local audience. Content is dynamically generated using PHP and WordPress functions.",
     ],
-    images: [
-      "/assets/gg-szepsegstudio-website-cover.jpg",
-      "/assets/gg-szepsegstudio-website-mockup.jpg",
-    ],
+    images: [ggSzepsegstudioWebsiteCover, ggSzepsegstudioWebsiteMockup],
     details: {
       Type: "Business Website • Multi-Page Website",
       Technologies: "WordPress • PHP • Tailwind CSS • Vanilla JavaScript",
@@ -95,10 +95,7 @@ export const projects = [
       "This integration signifies that each piece of the marketing puzzle is not only a part of a larger strategy but also a source of insight and innovation. By the combination, the logo effectively communicates the agency’s mission to merge creativity with strategic thinking.",
       "The logo was designed in multiple variants, ensuring scalability and versatility for diverse applications across all media, from digital platforms to print materials, while maintaining visual integrity and brand consistency.",
     ],
-    images: [
-      "/assets/marketing-puzzle-logo-cover.jpg",
-      "/assets/marketing-puzzle-logo-mockup.jpg",
-    ],
+    images: [marketingPuzzleLogoCover, marketingPuzzleLogoMockup],
     details: {
       Type: "Logo Design • Branding • Graphic Design",
       Tool: "Adobe Illustrator",
