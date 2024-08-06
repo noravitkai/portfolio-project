@@ -36,7 +36,7 @@
                   class="absolute inset-0 bg-yellow w-full h-full transition ease-in-out duration-300 transform translate-x-1 translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0"
                 ></span>
                 <span class="absolute inset-0 border-2 border-zinc-900"></span>
-                <span class="relative">Get in touch</span>
+                <span class="relative">Get in Touch</span>
               </router-link>
             </div>
           </header>
@@ -51,7 +51,7 @@
             >
               <img
                 src="/src/assets/nora-vitkai-portrait-01.jpg"
-                alt=""
+                alt="Nora Vitkai in creative work on her MacBook in a productive office environment"
                 class="aspect-square w-full object-cover transition duration-500 group-hover:scale-105"
               />
               <div class="relative bg-white pt-4">
@@ -69,7 +69,7 @@
             >
               <img
                 src="/src/assets/workspace.jpg"
-                alt="Workspace"
+                alt="Productive workspace scene featuring a clean, minimalist desk setup"
                 class="aspect-square w-full object-cover transition duration-500 group-hover:scale-105"
               />
               <div class="relative bg-white pt-3">

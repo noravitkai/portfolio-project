@@ -186,7 +186,7 @@
       <div>
         <img
           src="/src/assets/nora-vitkai-portrait-02.jpg"
-          alt="Portrait of Nora Vitkai"
+          alt="Nora Vitkai smiling and enjoying a coffee break"
           class="size-full object-cover"
         />
       </div>

@@ -4,6 +4,18 @@
   >
     <div>
       <span class="flex items-center">
+        <div class="mr-4">
+          <router-link
+            :to="{ path: '/', hash: '#hero' }"
+            class="relative max-w-max px-4 py-2 group text-zinc-900"
+          >
+            <span
+              class="absolute inset-0 bg-yellow w-full h-full transition ease-in-out duration-300 transform translate-x-1 translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0"
+            ></span>
+            <span class="absolute inset-0 border-2 border-zinc-900"></span>
+            <span class="relative">Back to Projects</span>
+          </router-link>
+        </div>
         <span class="h-px flex-1 bg-zinc-200"></span>
         <span class="pl-6 relative">
           <span
@@ -76,6 +88,22 @@
         >
           {{ description }}
         </p>
+      </div>
+    </div>
+    <div class="pt-8 xl:pt-16">
+      <div>
+        <span class="flex items-center">
+          <router-link
+            to="/projects"
+            class="relative max-w-max px-4 py-2 group text-zinc-900"
+          >
+            <span
+              class="absolute inset-0 bg-yellow w-full h-full transition ease-in-out duration-300 transform translate-x-1 translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0"
+            ></span>
+            <span class="absolute inset-0 border-2 border-zinc-900"></span>
+            <span class="relative">Discover More</span>
+          </router-link>
+        </span>
       </div>
     </div>
   </div>
