@@ -13,8 +13,8 @@ export const projects = [
       "WordPress was chosen primarily for its user- friendly content management system, allowing conference organizers to easily manage the content of the page without requiring technical knowledge. The language of the site is Hungarian, serving its local audience. The content is populated dynamically using PHP and WordPress functions.",
     ],
     images: [
-      "/src/assets/fikon-website-cover.jpg",
-      "/src/assets/fikon-website-mockup.jpg",
+      "/assets/fikon-website-cover.jpg",
+      "/assets/fikon-website-mockup.jpg",
     ],
     details: {
       Type: "Event Website • Multi-Page Website",
@@ -41,8 +41,8 @@ export const projects = [
       "This comprehensive and strategic approach resulted in a high-impact promotional website that effectively supports HUFBAU Piedl's marketing campaign.",
     ],
     images: [
-      "/src/assets/hufbau-website-cover.jpg",
-      "/src/assets/hufbau-website-mockup.jpg",
+      "/assets/hufbau-website-cover.jpg",
+      "/assets/hufbau-website-mockup.jpg",
     ],
     details: {
       Type: "Promotional Website • Landing Page",
@@ -69,8 +69,8 @@ export const projects = [
       "WordPress was chosen as the CMS for its ease of use, allowing the salon to update the site regularly with minimal effort, maintaining its relevance. The website is in Hungarian to serve the local audience. Content is dynamically generated using PHP and WordPress functions.",
     ],
     images: [
-      "/src/assets/gg-szepsegstudio-website-cover.jpg",
-      "/src/assets/gg-szepsegstudio-website-mockup.jpg",
+      "/assets/gg-szepsegstudio-website-cover.jpg",
+      "/assets/gg-szepsegstudio-website-mockup.jpg",
     ],
     details: {
       Type: "Business Website • Multi-Page Website",
@@ -96,8 +96,8 @@ export const projects = [
       "The logo was designed in multiple variants, ensuring scalability and versatility for diverse applications across all media, from digital platforms to print materials, while maintaining visual integrity and brand consistency.",
     ],
     images: [
-      "/src/assets/marketing-puzzle-logo-cover.jpg",
-      "/src/assets/marketing-puzzle-logo-mockup.jpg",
+      "/assets/marketing-puzzle-logo-cover.jpg",
+      "/assets/marketing-puzzle-logo-mockup.jpg",
     ],
     details: {
       Type: "Logo Design • Branding • Graphic Design",
