@@ -28,7 +28,7 @@
                   aria-hidden="true"
                 />
                 <span
-                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
+                  class="hidden md:inline-flex invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
                 >
                   Profile
                 </span>
@@ -41,7 +41,7 @@
               >
                 <AcademicCapIcon class="size-6 stroke-1" aria-hidden="true" />
                 <span
-                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
+                  class="hidden md:inline-flex invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
                 >
                   Education
                 </span>
@@ -54,7 +54,7 @@
               >
                 <BriefcaseIcon class="size-6 stroke-1" aria-hidden="true" />
                 <span
-                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
+                  class="hidden md:inline-flex invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
                 >
                   Experience
                 </span>
@@ -70,7 +70,7 @@
                   aria-hidden="true"
                 />
                 <span
-                  class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
+                  class="hidden md:inline-flex invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
                 >
                   Contact
                 </span>
@@ -96,7 +96,7 @@
                 <AtSymbolIcon class="size-4 stroke-2" aria-hidden="true" />
               </div>
               <span
-                class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
+                class="hidden md:inline-flex invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
               >
                 Mail
               </span>
@@ -128,7 +128,7 @@
                 </svg>
               </div>
               <span
-                class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
+                class="hidden md:inline-flex invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
               >
                 LinkedIn
               </span>
@@ -158,7 +158,7 @@
                 </svg>
               </div>
               <span
-                class="invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
+                class="hidden md:inline-flex invisible absolute start-full top-1/2 ms-4 -translate-y-1/2 rounded-xl rounded-tl-none bg-zinc-900 px-2 py-1.5 text-xs font-medium text-white group-hover:visible z-20"
               >
                 Facebook
               </span>

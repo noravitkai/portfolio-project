@@ -114,7 +114,7 @@
                     name="name"
                     v-model="name"
                     required
-                    class="flex size-full min-h-11 border border-zinc-200 bg-white shadow-sm py-2 px-3 align-middle file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-zinc-400 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                    class="flex size-full min-h-11 border border-zinc-200 bg-white shadow-sm py-2 px-3 align-middle file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-zinc-400 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 rounded-none"
                     id="name"
                     placeholder="Type your name..."
                   />
@@ -136,7 +136,7 @@
                     v-model="email"
                     required
                     pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
-                    class="flex size-full min-h-11 border border-zinc-200 bg-white shadow-sm py-2 px-3 align-middle file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-zinc-400 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                    class="flex size-full min-h-11 border border-zinc-200 bg-white shadow-sm py-2 px-3 align-middle file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-zinc-400 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 rounded-none"
                     id="email"
                     placeholder="Type your email address..."
                   />
@@ -154,7 +154,7 @@
                   name="message"
                   v-model="message"
                   required
-                  class="flex w-full min-h-[11.25rem] border border-zinc-200 bg-white shadow-sm p-3 placeholder:text-zinc-400 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 overflow-auto"
+                  class="flex w-full min-h-[11.25rem] border border-zinc-200 bg-white shadow-sm p-3 placeholder:text-zinc-400 focus-visible:outline-none disabled:cursor-not-allowed disabled:opacity-50 overflow-auto rounded-none"
                   id="message"
                   placeholder="Type your message..."
                 ></textarea>
@@ -173,7 +173,9 @@
                   <span
                     class="absolute inset-0 border-2 border-zinc-900"
                   ></span>
-                  <span class="relative">Submit</span>
+                  <span class="relative text-sm md:text-base 2xl:text-lg"
+                    >Submit</span
+                  >
                 </button>
               </div>
             </form>

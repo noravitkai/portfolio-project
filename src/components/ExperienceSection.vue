@@ -15,7 +15,7 @@
     <div class="pt-8 xl:pt-16">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <article
-          v-for="project in projects"
+          v-for="project in displayedProjects"
           :key="project.id"
           class="relative group overflow-hidden border border-zinc-100 bg-white shadow-sm hover:shadow-lg transition ease-in-out duration-300"
         >
@@ -70,7 +70,9 @@
               class="absolute inset-0 bg-yellow w-full h-full transition ease-in-out duration-300 transform translate-x-1 translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0"
             ></span>
             <span class="absolute inset-0 border-2 border-zinc-900"></span>
-            <span class="relative">Browse Projects</span>
+            <span class="relative text-sm md:text-base 2xl:text-lg"
+              >Browse Projects</span
+            >
           </router-link>
         </div>
       </div>
@@ -81,13 +83,9 @@
 <script setup>
 import { ArrowRightIcon } from "@heroicons/vue/24/outline";
 import { computed } from "vue";
-import { useRoute } from "vue-router";
 import { projects } from "../projects.js";
 
-const route = useRoute();
-
-const projectData = computed(() => {
-  const id = route.params.projectId;
-  return projects.find((project) => project.id === id) || {};
+const displayedProjects = computed(() => {
+  return projects.slice(0, 4);
 });
 </script>

@@ -6,6 +6,8 @@ import ggSzepsegstudioWebsiteCover from "@/assets/gg-szepsegstudio-website-cover
 import ggSzepsegstudioWebsiteMockup from "@/assets/gg-szepsegstudio-website-mockup.jpg";
 import marketingPuzzleLogoCover from "@/assets/marketing-puzzle-logo-cover.jpg";
 import marketingPuzzleLogoMockup from "@/assets/marketing-puzzle-logo-mockup.jpg";
+import easvPosterCover from "@/assets/easv-poster-cover.jpg";
+import easvPosterMockup from "@/assets/easv-poster-mockup.jpg";
 
 export const projects = [
   {
@@ -23,7 +25,7 @@ export const projects = [
     ],
     images: [fikonWebsiteCover, fikonWebsiteMockup],
     details: {
-      Type: "Event Website • Multi-Page Website",
+      Type: "Event Website • Multi-Page Website • Web Development",
       Technologies: "WordPress • PHP • Tailwind CSS • Vanilla JavaScript",
       "Key Features":
         "Custom Theme • Responsive Design • Dynamic Content • Structured Visual Hierarchy • Dynamic Event Schedule in Timeline Format • Customizable Program • Conditional Logic for Adaptive Layouts • Access to Conference Volumes and Speaker Profiles",
@@ -48,7 +50,7 @@ export const projects = [
     ],
     images: [hufbauWebsiteCover, hufbauWebsiteMockup],
     details: {
-      Type: "Promotional Website • Landing Page",
+      Type: "Promotional Website • Landing Page • Web Development",
       Technologies: "Vue.js • Tailwind CSS",
       "Key Features":
         "Custom Design • Responsive Layout • CTA Sections • Contact Form • Strategic Marketing Content • Easily Accessible Information • Fast Load Times",
@@ -73,7 +75,7 @@ export const projects = [
     ],
     images: [ggSzepsegstudioWebsiteCover, ggSzepsegstudioWebsiteMockup],
     details: {
-      Type: "Business Website • Multi-Page Website",
+      Type: "Business Website • Multi-Page Website • Web Development",
       Technologies: "WordPress • PHP • Tailwind CSS • Vanilla JavaScript",
       "Key Features":
         "Custom Theme • Responsive Design • Dynamic Content • Comprehensive Service Overview with Detailed Subpages • Gallery • Blog • Contact Form",
@@ -108,6 +110,31 @@ export const projects = [
         "Horizontal • Vertical • Icon-Only • Full-Color • Black and White",
       Outcome:
         "Enhanced Brand Recognition and Market Presence • Differentiation from Competitors • Positive Client Feedback • Increased Visual Impact",
+    },
+  },
+  {
+    id: "easv-poster",
+    title: "Poster for Business Academy SouthWest",
+    scope:
+      "A vibrant poster for EASV’s kickoff party, designed in Photoshop, blending professionalism with youthfulness to captivate students.",
+    descriptions: [
+      "This poster was created to promote the opening party of Business Academy SouthWest (Erhvervsakademi SydVest) in 2023. Tailored for students aged 18 to their twenties, the poster addresses its target demographic. The design aligns with the school’s design guide, integrating the institution’s distinctive colors and preferred logo pattern.",
+      "It was selected for promotion in a contest among students of the Desktop Publishing course at the academy. This recognition not only highlighted the poster’s effectiveness but also demonstrated its alignment with the institution's branding and promotional goals. The poster was subsequently used within the academy to promote the opening party.",
+      "Mindful of the target audience, the poster contains subtle elements such as scratches and grains as separate layers, adding a touch of contemporary appeal. Through the blend of fonts, colors, and layout, the design aims to convey a subtle mix of professionalism and playfulness, respecting the institution’s serious nature while subtly alluding to the enjoyable experiences it offers to students.",
+      "The poster was designed in three sizes (A4, A3, and 1920x1080 px) to suit various mediums. Following its selection, I refined the text and added extra information to meet specific promotional requirements.",
+    ],
+    images: [easvPosterCover, easvPosterMockup],
+    details: {
+      Type: "Event Poster • Graphic Design • Promotional Material",
+      Tool: "Adobe Photoshop",
+      "Key Features":
+        "Vibrant and Engaging Design • Integration with Academy Branding • Youthful and Modern Aesthetic • Clear Messaging • Tailored With Student-Friendly Language • Suitable for Multiple Mediums",
+      "Design Process":
+        "Understanding of Audience • Concept Development • Digital Layout • Feedback • Final Revisions",
+      "Brand Values": "Professionalism • Innovation • Sense of Community",
+      "Poster Variants": "A4 • A3 • 1920x1080 px • Print and Digital",
+      Outcome:
+        "Effective Student Engagement • Positive Reception • Winner of Internal Contest • Increased Interest",
     },
   },
 ];

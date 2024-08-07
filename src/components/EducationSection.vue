@@ -27,27 +27,36 @@
               <time class="text-sm text-yellow font-medium">{{
                 education.startYear
               }}</time>
-              <div class="mt-3">
+              <div class="mt-3 flex flex-col">
                 <h3
-                  class="text-sm md:text-base 2xl:text-lg text-zinc-900 font-medium flex items-center"
+                  class="text-sm md:text-base 2xl:text-lg text-zinc-900 font-medium inline-flex items-start"
                 >
-                  <AcademicCapIcon class="mr-2 h-4 w-4" aria-hidden="true" />
-                  {{ education.programme }}
-                </h3>
-                <p
-                  class="text-sm md:text-base 2xl:text-lg text-zinc-700 flex items-center"
-                >
-                  <BookmarkIcon class="mr-2 h-4 w-4" aria-hidden="true" />
-                  {{ education.degree }}
-                </p>
-                <p
-                  class="text-sm md:text-base 2xl:text-lg text-zinc-700 flex items-center"
-                >
-                  <BuildingLibraryIcon
-                    class="mr-2 h-4 w-4"
+                  <AcademicCapIcon
+                    class="mr-2 h-4 w-4 flex-shrink-0"
                     aria-hidden="true"
                   />
-                  {{ education.institution }}, {{ education.location }}
+                  <span>{{ education.programme }}</span>
+                </h3>
+                <p
+                  class="text-sm md:text-base 2xl:text-lg text-zinc-700 inline-flex items-start"
+                >
+                  <BookmarkIcon
+                    class="mr-2 h-4 w-4 flex-shrink-0"
+                    aria-hidden="true"
+                  />
+                  <span>{{ education.degree }}</span>
+                </p>
+
+                <p
+                  class="text-sm md:text-base 2xl:text-lg text-zinc-700 inline-flex items-start"
+                >
+                  <BuildingLibraryIcon
+                    class="mr-2 h-4 w-4 flex-shrink-0"
+                    aria-hidden="true"
+                  />
+                  <span
+                    >{{ education.institution }}, {{ education.location }}</span
+                  >
                 </p>
               </div>
               <p class="my-3 text-sm md:text-base 2xl:text-lg text-zinc-700">

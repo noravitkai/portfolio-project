@@ -13,20 +13,16 @@
                 Hello
               </h1>
               <h2
-                class="absolute inset-x-0 top-2/3 mb-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-zinc-900 font-extrabold leading-none tracking-tight pl-none lg:pl-1"
+                class="absolute inset-x-0 top-2/3 mb-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-zinc-900 font-extrabold leading-none tracking-tight pl-none pl-0.5 lg:pl-1"
               >
                 nice to meet you!
               </h2>
             </div>
             <div class="flex flex-col gap-4 text-sm md:text-base 2xl:text-lg">
               <p class="text-zinc-700">
-                My name is<span
-                  class="font-semibold underline decoration-yellow/40 decoration-4 underline-offset-0"
-                >
-                  Nora Vitkai.</span
-                >
-                I am an inventive content creator with a multidisciplinary
-                approach to web design and web development.
+                My name is<span class="font-semibold"> Nora Vitkai</span>. I am
+                an inventive content creator with a multidisciplinary approach
+                to web design and web development.
               </p>
               <router-link
                 to="/#contact"
@@ -36,7 +32,9 @@
                   class="absolute inset-0 bg-yellow w-full h-full transition ease-in-out duration-300 transform translate-x-1 translate-y-1 group-hover:translate-x-0 group-hover:translate-y-0"
                 ></span>
                 <span class="absolute inset-0 border-2 border-zinc-900"></span>
-                <span class="relative">Get in Touch</span>
+                <span class="relative text-sm md:text-base 2xl:text-lg"
+                  >Get in Touch</span
+                >
               </router-link>
             </div>
           </header>
@@ -55,9 +53,12 @@
                 class="aspect-square w-full object-cover transition duration-500 group-hover:scale-105"
               />
               <div class="relative bg-white pt-4">
-                <div class="inline-flex items-center">
+                <div class="inline-block align-middle">
                   Get to know me
-                  <ArrowRightIcon class="ml-1 h-4 w-4" aria-hidden="true" />
+                  <ArrowRightIcon
+                    class="ml-1 h-3 w-3 sm:h-4 sm:w-4 inline"
+                    aria-hidden="true"
+                  />
                 </div>
               </div>
             </router-link>
@@ -72,10 +73,13 @@
                 alt="Productive workspace scene featuring a clean, minimalist desk setup"
                 class="aspect-square w-full object-cover transition duration-500 group-hover:scale-105"
               />
-              <div class="relative bg-white pt-3">
-                <div class="inline-flex items-center">
-                  Check my projects
-                  <ArrowRightIcon class="ml-1 h-4 w-4" aria-hidden="true" />
+              <div class="relative bg-white pt-4">
+                <div class="inline-block align-middle">
+                  Check projects
+                  <ArrowRightIcon
+                    class="ml-1 h-3 w-3 sm:h-4 sm:w-4 inline"
+                    aria-hidden="true"
+                  />
                 </div>
               </div>
             </router-link>
