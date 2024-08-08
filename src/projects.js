@@ -21,7 +21,7 @@ export const projects = [
       "Addressing the deficiencies in FiKon’s web presence was the goal of the project, achieved by creating a user-friendly and visually appealing website, complemented by a cohesive brand identity through various digital media products.",
       "The development of the website involved a blend of modern web dev technologies and frameworks for a seamless, high-performance experience. While the site is built on the WordPress platform for its content management capabilities, a custom-coded unique theme was developed to meet specific needs. Custom theme development offers several key benefits, including consistency with the brand identity, great flexibility and tailored functionality, as well as better performance with a more efficient, lightweight codebase.",
       "The custom theme was developed using Tailwind CSS for effective and responsive styling, along with Vanilla JavaScript for dynamic interactivity. Tailwind CSS was selected for its utility-first approach to styling, which allows for rapid development and a cohesive design language across the site. Vanilla JavaScript was employed to handle dynamic interactivity for implementing custom functionalities without larger frameworks.",
-      "WordPress was chosen primarily for its user- friendly content management system, allowing conference organizers to easily manage the content of the page without requiring technical knowledge. The language of the site is Hungarian, serving its local audience. The content is populated dynamically using PHP and WordPress functions.",
+      "WordPress was chosen primarily for its user-friendly content management system, allowing conference organizers to easily manage the content of the page without requiring technical knowledge. The language of the site is Hungarian, serving its local audience. The content is populated dynamically using PHP and WordPress functions.",
     ],
     images: [fikonWebsiteCover, fikonWebsiteMockup],
     details: {
@@ -31,7 +31,8 @@ export const projects = [
         "Custom Theme • Responsive Design • Dynamic Content • Structured Visual Hierarchy • Dynamic Event Schedule in Timeline Format • Customizable Program • Conditional Logic for Adaptive Layouts • Access to Conference Volumes and Speaker Profiles",
       "SEO Strategy":
         "Keyword Research • Title, Meta Description, Alt Text Optimization • SEO-Friendly URL Structure • Semantic HTML • Image Optimization • Caching • Structured Sitemap",
-      "Security Measures": "HTTPS Encryption • Two-Factor Authentication",
+      "Security Measures":
+        "HTTPS Encryption • Two-Factor Authentication • Output Escaping",
       Link: "https://fikon.noravitkai.com/",
     },
   },
@@ -42,11 +43,11 @@ export const projects = [
       "A promotional website as part of a marketing campaign for a building materials supplier, built with Vue.js and Tailwind CSS.",
     descriptions: [
       "In 2024, the Hungarian Government announced a Home Renovation Programme aimed at the energy modernization of family houses. This programme generated substantial advertising buzz within the construction material sector and among trading companies.",
-      "Marketing Puzzle, the creative marketing agency where I previously undertook my internship, devised a campaign to help HUFBAU Piedl, a leading building materials supplier in Veszprém, stand out in a competitive market. The campaign creatively emphasized thermal insulation, aligning with the Home Renovation Programme and delivering clear, impactful communication.",
+      "Marketing Puzzle, the creative marketing agency where I previously undertook my internship, devised a campaign to help HUFBAU Piedl, a leading building materials supplier in Veszprém, stand out in a competitive market. The marketing campaign creatively emphasized thermal insulation, aligning with the Home Renovation Programme and delivering clear, impactful communication.",
       "As part of this extensive campaign, Marketing Puzzle produced various promotional materials, including sliders, banners, B1 and A4 posters, billboards, and social media content. My role was to integrate all the provided information and visuals into a cohesive and engaging promotional website.",
-      "The landing page was developed using Vue.js and Tailwind CSS. Vue.js facilitated a fast, interactive user experience with its component-based architecture, while Tailwind CSS facilitated the creation of a responsive and visually appealing layout, enhancing user engagement.",
+      "The landing page was developed using Vue.js and Tailwind CSS. Vue.js enabled a fast, interactive user experience with its component-based architecture, while Tailwind CSS supported the creation of a responsive and visually appealing layout, enhancing user engagement.",
       "The website, in Hungarian to serve its target group, features strategic elements such as CTA sections, service descriptions, information on how HUFBAU Piedl supports customers through the Home Renovation Programme, and details about the prize draw associated with the campaign.",
-      "This comprehensive and strategic approach resulted in a high-impact promotional website that effectively supports HUFBAU Piedl's marketing campaign.",
+      "This comprehensive and strategic approach resulted in a high-impact promotional website that effectively supports HUFBAU Piedl's campaign. The site will remain live only until the marketing campaign concludes.",
     ],
     images: [hufbauWebsiteCover, hufbauWebsiteMockup],
     details: {
@@ -81,7 +82,8 @@ export const projects = [
         "Custom Theme • Responsive Design • Dynamic Content • Comprehensive Service Overview with Detailed Subpages • Gallery • Blog • Contact Form",
       "SEO Strategy":
         "Keyword Research • Title, Meta Description, Alt Text Optimization • SEO-Friendly URL Structure • Semantic HTML • Image Optimization • Caching • Structured Sitemap",
-      "Security Measures": "HTTPS Encryption • Two-Factor Authentication",
+      "Security Measures":
+        "HTTPS Encryption • Two-Factor Authentication • Output Escaping",
       Link: "https://www.ggszepsegstudio.hu/",
     },
   },
@@ -91,9 +93,9 @@ export const projects = [
     scope:
       "A visually appealing, memorable, and easily recognizable logo for MarketingPuzzle, reflecting their commitment to creative problem-solving and innovation.",
     descriptions: [
-      "I was approached by MarketingPuzzle to design a new logo that would accurately convey the essence of the brand. Marketing Puzzle is a full-service marketing agency located in Hungary, offering a wide range of marketing communication services, including both online and offline marketing, advertising, web development, social media content management, graphic design, copywriting, and newsletter marketing.",
-      "The primary objective was to create a logo that is visually appealing, memorable, and easily recognisable. As an idea-oriented marketing agency, MarketingPuzzle needed a logo that reflects their commitment to creative problem-solving and continuous pursuit of innovation.",
-      "The logo features a distinctive design integrating a puzzle piece with a light bulb. The puzzle piece symbolizes the idea of fitting together unique and complex elements to solve challenges, reflecting the agency’s ability to connect various marketing strategies to create comprehensive solutions for their clients. The light bulb is universally recognized as a symbol of ideas and inspiration, underscoring MarketingPuzzle’s commitment to generating creative solutions and fostering new ideas.",
+      "I was approached by Marketing Puzzle to design a new logo that would accurately convey the essence of the brand. Marketing Puzzle is a full-service marketing agency located in Hungary, offering a wide range of marketing communication services, including both online and offline marketing, advertising, web development, social media content management, graphic design, copywriting, and newsletter marketing.",
+      "The primary objective was to create a logo that is visually appealing, memorable, and easily recognisable. As an idea-oriented marketing agency, Marketing Puzzle needed a logo that reflects their commitment to creative problem-solving and continuous pursuit of innovation.",
+      "The logo features a distinctive design integrating a puzzle piece with a light bulb. The puzzle piece symbolizes the idea of fitting together unique and complex elements to solve challenges, reflecting the agency’s ability to connect various marketing strategies to create comprehensive solutions for their clients. The light bulb is universally recognized as a symbol of ideas and inspiration, underscoring Marketing Puzzle’s commitment to generating creative solutions and fostering new ideas.",
       "This integration signifies that each piece of the marketing puzzle is not only a part of a larger strategy but also a source of insight and innovation. By the combination, the logo effectively communicates the agency’s mission to merge creativity with strategic thinking.",
       "The logo was designed in multiple variants, ensuring scalability and versatility for diverse applications across all media, from digital platforms to print materials, while maintaining visual integrity and brand consistency.",
     ],
@@ -102,7 +104,7 @@ export const projects = [
       Type: "Logo Design • Branding • Graphic Design",
       Tool: "Adobe Illustrator",
       "Key Features":
-        "Memorable Design • Alignment with Brand Identity • Scalable Across Different Uses • Versatility Across Media",
+        "Memorable Design • Alignment with Brand Identity • Distinctive Branding • Clear Messaging • Scalable Across Different Uses • Versatility Across Media",
       "Design Process":
         "Research and Discovery • Concept Development • Sketching • Digital Rendering • Client Feedback • Finalization",
       "Brand Values": "Creativity • Innovation • Problem-Solving",

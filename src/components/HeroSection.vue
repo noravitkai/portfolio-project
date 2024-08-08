@@ -21,8 +21,8 @@
             <div class="flex flex-col gap-4 text-sm md:text-base 2xl:text-lg">
               <p class="text-zinc-700">
                 My name is<span class="font-semibold"> Nora Vitkai</span>. I am
-                an inventive content creator with a multidisciplinary approach
-                to web design and web development.
+                an inventive, visionary content creator with a multidisciplinary
+                approach to web design and web development.
               </p>
               <router-link
                 to="/#contact"

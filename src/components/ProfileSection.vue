@@ -41,7 +41,7 @@
           layout design, as well as social media campaigns.
         </p>
         <a
-          href="https://firebasestorage.googleapis.com/v0/b/norvit-portfolio.appspot.com/o/Nora%20Vitkai%20CV.pdf?alt=media&token=9ee79c8a-a73c-4ff5-b785-9956cfcc1ae8"
+          href="https://indd.adobe.com/view/41e47eb2-a035-4657-8b5e-a515977cc6cb"
           target="_blank"
           class="relative max-w-max px-4 py-2 group text-zinc-900"
         >
