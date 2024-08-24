@@ -33,7 +33,7 @@ export const projects = [
         "Keyword Research • Title, Meta Description, Alt Text Optimization • SEO-Friendly URL Structure • Semantic HTML • Image Optimization • Caching • Structured Sitemap",
       "Security Measures":
         "HTTPS Encryption • Two-Factor Authentication • Output Escaping",
-      Link: "https://fikon.noravitkai.com/",
+      Link: "https://fikon.hu/",
     },
   },
   {
