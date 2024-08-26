@@ -8,6 +8,8 @@ import marketingPuzzleLogoCover from "@/assets/marketing-puzzle-logo-cover.jpg";
 import marketingPuzzleLogoMockup from "@/assets/marketing-puzzle-logo-mockup.jpg";
 import easvPosterCover from "@/assets/easv-poster-cover.jpg";
 import easvPosterMockup from "@/assets/easv-poster-mockup.jpg";
+import quizGameCover from "@/assets/quiz-game-cover.jpg";
+import quizGameMockup from "@/assets/quiz-game-mockup.jpg";
 
 export const projects = [
   {
@@ -112,6 +114,34 @@ export const projects = [
         "Horizontal • Vertical • Icon-Only • Full-Color • Black and White",
       Outcome:
         "Enhanced Brand Recognition and Market Presence • Differentiation from Competitors • Positive Client Feedback • Increased Visual Impact",
+    },
+  },
+  {
+    id: "quiz-game",
+    title: "Quiz Game Practice Project",
+    scope:
+      "A small quiz game that challenges your knowledge of famous literary works through 15 questions, built with Vue.js, Tailwind CSS, and TypeScript.",
+    descriptions: [
+      "This small project was primarily created for fun and served as a learning exercise to gain experience with TypeScript, TestCafé, and Jenkins. By building this quiz game, I was able to explore and experiment with these tools in a practical, hands-on way.",
+      "The quiz game is designed to test your knowledge of famous literary works. The quiz consists of 15 multiple-choice questions, allowing to navigate between questions using navigation buttons. The application also features a timer, progress bar, and a completion message that displays the final score, along with a restart button to replay the game.",
+      "The frontend of the quiz game is developed using Vue.js, leveraging its component-based architecture for a responsive and interactive user experience. Tailwind CSS is employed for styling, providing a clean and modern interface.",
+      "A key focus of this project was to try out and practice TypeScript. It served as a great opportunity to get familiar with TypeScript and its features, including Vite and TypeScript compilation. Throughout the development process, I explored and implemented TypeScript concepts such as type annotations, interfaces, explicit and implicit typing, function signatures, along with union types.",
+      "In addition, TestCafé was implemented for end-to-end testing. Two tests were written. The first test checks if the quiz starts by clicking the start button, verifies the display of the first question, and checks if the second question is loaded after answering the first question. The second test simulates a complete quiz session by starting the quiz, answering all questions correctly, and then verifies that the displayed score message indicates a perfect score of 15 out of 15.",
+      "To ensure continuous integration, Jenkins was integrated into the project workflow. A Jenkins job was set up to automatically build, test, and deploy the app, triggered automatically on each new commit to the GitHub repository. This setup allowed for smooth and efficient updates to the application.",
+    ],
+    images: [quizGameCover, quizGameMockup],
+    details: {
+      Type: "Practice Project • Interactive Application • Web Development • Educational Exercise",
+      Technologies:
+        "Vue.js • Tailwind CSS • TypeScript • Vite • TestCafé • Jenkins",
+      "Key Features":
+        "15 Multiple-Choice Questions • Timer • Progress Bar • Completion Message with Score • Start & Restart Button • Navigation Between Questions",
+      TypeScript:
+        "Vite for TypeScript Compilation • Type Annotation • Interface • Explicit & Implicit Typing • Function Signature • Union Type",
+      Testing:
+        "TestCafé for End-to-End Testing • Test for Quiz Start and Question Navigation • Full Quiz Session Test",
+      "Continuous Integration and Deployment":
+        "Jenkins Job for Automated Build, Test, and Deployment • Triggered on GitHub Commits • CI/CD Pipeline",
     },
   },
   {
