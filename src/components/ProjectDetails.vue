@@ -25,7 +25,25 @@
             >
               <dt class="font-medium text-zinc-900">{{ key }}</dt>
               <dd class="text-zinc-700 sm:col-span-2">
-                <template v-if="key === 'Link'">
+                <template v-if="Array.isArray(value)">
+                  <div v-for="(link, index) in value" :key="index">
+                    <a
+                      v-if="isValidUrl(link)"
+                      :href="formattedUrl(link)"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center underline underline-offset-2 hover:text-yellow transition ease-in-out duration-300"
+                    >
+                      {{ formatLinkText(link) }}
+                      <ArrowTopRightOnSquareIcon
+                        class="ml-1 h-4 w-4"
+                        aria-hidden="true"
+                      />
+                    </a>
+                    <span v-else>{{ link }}</span>
+                  </div>
+                </template>
+                <template v-else-if="isValidUrl(value)">
                   <a
                     :href="formattedUrl(value)"
                     target="_blank"
@@ -116,5 +134,9 @@ function formatLinkText(url) {
 
 function formattedUrl(url) {
   return url.startsWith("http") ? url : `https://${url}`;
+}
+
+function isValidUrl(url) {
+  return /^(http|https):\/\/[^\s/$.?#].[^\s]*$/i.test(url);
 }
 </script>

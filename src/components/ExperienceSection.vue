@@ -85,7 +85,16 @@ import { ArrowRightIcon } from "@heroicons/vue/24/outline";
 import { computed } from "vue";
 import { projects } from "../projects.js";
 
+const highlightedProjectIds = [
+  "fiatalok-konferenciaja-website",
+  "hufbau-otthonfelujitas-website",
+  "gg-szepsegstudio-website",
+  "marketing-puzzle-logo",
+];
+
 const displayedProjects = computed(() => {
-  return projects.slice(0, 4);
+  return projects.filter((project) =>
+    highlightedProjectIds.includes(project.id)
+  );
 });
 </script>

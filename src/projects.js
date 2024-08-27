@@ -6,6 +6,8 @@ import ggSzepsegstudioWebsiteCover from "@/assets/gg-szepsegstudio-website-cover
 import ggSzepsegstudioWebsiteMockup from "@/assets/gg-szepsegstudio-website-mockup.jpg";
 import marketingPuzzleLogoCover from "@/assets/marketing-puzzle-logo-cover.jpg";
 import marketingPuzzleLogoMockup from "@/assets/marketing-puzzle-logo-mockup.jpg";
+import marketingPuzzlePromoVideoCover from "@/assets/marketing-puzzle-promo-video-cover.jpg";
+import marketingPuzzlePromoVideoMockup from "@/assets/marketing-puzzle-promo-video-mockup.jpg";
 import easvPosterCover from "@/assets/easv-poster-cover.jpg";
 import easvPosterMockup from "@/assets/easv-poster-mockup.jpg";
 import quizGameCover from "@/assets/quiz-game-cover.jpg";
@@ -35,6 +37,8 @@ export const projects = [
         "Keyword Research • Title, Meta Description, Alt Text Optimization • SEO-Friendly URL Structure • Semantic HTML • Image Optimization • Caching • Structured Sitemap",
       "Security Measures":
         "HTTPS Encryption • Two-Factor Authentication • Output Escaping",
+      Outcome:
+        "Strengthened Online Presence • Improved User Experience • Established Brand Identity • Increased Engagement • Seamless Content Management",
       Link: "https://fikon.hu/",
     },
   },
@@ -54,12 +58,14 @@ export const projects = [
     images: [hufbauWebsiteCover, hufbauWebsiteMockup],
     details: {
       Type: "Promotional Website • Landing Page • Web Development",
-      Technologies: "Vue.js • Tailwind CSS",
+      Technologies: "Vue.js • Tailwind CSS • Vite",
       "Key Features":
         "Custom Design • Responsive Layout • CTA Sections • Contact Form • Strategic Marketing Content • Easily Accessible Information • Fast Load Times",
       "SEO Strategy":
         "Title, Meta Description, Alt Text Optimization • SEO-Friendly URL Structure • Semantic HTML • Image Optimization • Performance and Speed Enhancement",
       "Security Measures": "HTTPS Encryption",
+      Outcome:
+        "Campaign Support • Market Positioning • Increased Engagement • Analytics & Insights • Positive Client Feedback • Enhanced Campaign Effectiveness",
       Link: "https://hufbauotthonfelujitas.hu/",
     },
   },
@@ -86,14 +92,47 @@ export const projects = [
         "Keyword Research • Title, Meta Description, Alt Text Optimization • SEO-Friendly URL Structure • Semantic HTML • Image Optimization • Caching • Structured Sitemap",
       "Security Measures":
         "HTTPS Encryption • Two-Factor Authentication • Output Escaping",
+      Outcome:
+        "Enhanced Presence and Visibility • Increased Customer Engagement • Improved User Experience • Effective Local Search Optimization • Streamlined Content Management",
       Link: "https://www.ggszepsegstudio.hu/",
+    },
+  },
+  {
+    id: "marketing-puzzle-promo-video",
+    title: "Promo Video for Marketing Puzzle",
+    scope:
+      "A dynamic, professional, and impactful promo commercial that highlights Marketing Puzzle’s innovative approach & marketing capabilities.",
+    descriptions: [
+      "As part of our collaboration with Marketing Puzzle, a Hungarian marketing agency, I was tasked with editing a promo commercial video to showcase the agency's unique approach and effective capabilities. The goal was to present Marketing Puzzle as a forward-thinking and innovative agency that leverages the latest marketing tools and trends to help clients stand out in a competitive marketplace.",
+      "The workflow involved using Adobe Premiere Pro to craft a visually compelling and dynamic promo commercial. The fast-paced video serves as an excellent introductory piece or can be utilized in marketing campaigns and promotional materials.",
+      "To match the fast-paced nature of the video, I synchronized the edits with a high-energy soundtrack, using precise cuts that align with the rhythm to create a cohesive and impactful viewing experience. Animated text elements were integrated to highlight key messages and emphasize the agency’s selling points.",
+      "The video was rendered in multiple formats, including HD and 4K resolution, to ensure high quality for both web and broadcast use, as well as social media formats. It was produced in Hungarian and English, ensuring broader compatibility across various platforms. The final commercial not only met but exceeded the client’s expectations.",
+    ],
+    images: [marketingPuzzlePromoVideoCover, marketingPuzzlePromoVideoMockup],
+    details: {
+      Type: "Promo Video • Marketing Content • Video Editing",
+      Tool: "Adobe Premiere Pro",
+      "Key Features":
+        "High-Energy Editing • Rhythm-Based Cuts • Multi-Language Versions • Versatility Across Platforms",
+      "Production Phases":
+        "Concept Development • Footage Integration • Audio Synchronization • Effects & Animation • Review & Revision • Finalization",
+      "Brand Values":
+        "Innovation • Creativity • Effectiveness • Professionalism • Adaptability • Trend-Forward Thinking • Strategic Marketing",
+      "Video Variants":
+        "Hungarian and English Versions • HD for Web • HD for Broadcast • 4K Resolution • Social Media-Friendly Formats",
+      Outcome:
+        "Strengthened Brand Visibility • Effective Communication of Message • Positive Client Feedback • Increased Engagement • Boosted Market Position",
+      Link: [
+        "https://www.youtube.com/watch?v=pLeuz1z7GoI",
+        "https://www.youtube.com/watch?v=vBJMdDTcTLo",
+      ],
     },
   },
   {
     id: "marketing-puzzle-logo",
     title: "Logo for Marketing Puzzle",
     scope:
-      "A visually appealing, memorable, and easily recognizable logo for MarketingPuzzle, reflecting their commitment to creative problem-solving and innovation.",
+      "A visually appealing, memorable, and easily recognizable logo for Marketing Puzzle, reflecting their commitment to creative problem-solving and innovation.",
     descriptions: [
       "I was approached by Marketing Puzzle to design a new logo that would accurately convey the essence of the brand. Marketing Puzzle is a full-service marketing agency located in Hungary, offering a wide range of marketing communication services, including both online and offline marketing, advertising, web development, social media content management, graphic design, copywriting, and newsletter marketing.",
       "The primary objective was to create a logo that is visually appealing, memorable, and easily recognisable. As an idea-oriented marketing agency, Marketing Puzzle needed a logo that reflects their commitment to creative problem-solving and continuous pursuit of innovation.",
